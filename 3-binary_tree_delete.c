@@ -16,7 +16,10 @@ void transverse(binary_tree_t *delete)
 	free(delete);
 }
 /**
+ * binary_tree_delete - function
+ * description - delete nodes
  *
+ * @tree: root
  */
 void binary_tree_delete(binary_tree_t *tree)
 {
