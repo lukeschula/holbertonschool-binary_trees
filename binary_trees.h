@@ -45,4 +45,6 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 void binary_tree_print(const binary_tree_t *tree);
 void transverse(binary_tree_t *delete);
+int binary_tree_leaf(const binary_tree_t *new_node);
+size_t binary_tree_depth(const binary_tree_t *tree);
 #endif
